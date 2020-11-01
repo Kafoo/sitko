@@ -33592,8 +33592,8 @@ var state = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\DEV\wamp\www\laratest\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\DEV\wamp\www\laratest\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! D:\DEV\wamp\www\sitko\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\DEV\wamp\www\sitko\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
