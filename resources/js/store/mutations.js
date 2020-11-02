@@ -10,6 +10,12 @@ let mutations = {
         //and returning the first item that matches the given condition.
         let index = state.posts.findIndex(item => item.id === post.id)
         state.posts.splice(index, 1)
+    },
+    FETCH_USERS(state, users) {
+        return state.users = users
+    },
+    FETCH_CATEGORIES(state, categories) {
+        return state.categories = categories
     }
 
 }

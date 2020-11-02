@@ -24,6 +24,22 @@ let actions = {
             }).catch(err => {
             console.log(err)
         })
+    },
+    fetchUsers({commit}) {
+        axios.get('/api/users')
+            .then(res => {
+                commit('FETCH_USERS', res.data)
+            }).catch(err => {
+            console.log(err)
+        })
+    },
+    fetchCategories({commit}) {
+        axios.get('/api/categories')
+            .then(res => {
+                commit('FETCH_CATEGORIES', res.data)
+            }).catch(err => {
+            console.log(err)
+        })
     }
 }
 
